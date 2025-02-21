@@ -78,18 +78,18 @@ function fetchRecord { }   # Unapproved verb
 
 ---
 
-## 4. Parameter Naming (`camelCase`)
-- Parameters **should use camelCase** (`$userName`).
+## 4. Parameter Naming (`PascalCase`)
+- Parameters **should use PascalCase** (`$UserName`).
 - Avoid abbreviations unless well-known.
 
 **Correct:**
 ```powershell
 function Get-UserInfo {
     param (
-        [string]$userName,
-        [int]$age
+        [string]$UserName,
+        [int]$Age
     )
-    "User: $userName, Age: $age"
+    "User: $UserName, Age: $Age"
 }
 ```
 
