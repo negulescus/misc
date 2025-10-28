@@ -191,11 +191,13 @@ Here is a sentence with a footnote.[^1]
 ```
 :smile: :rocket: :+1:  
 The above might not wotk in all markdown editors.  
-You may use UTF8 characters.
+You may use UTF8 characters.  
+📘 (Guideline), 📋 (Log), 📄 (Template), 📜 (Policy), 🗂️ (Record), 📝 (Procedure), 📁 (Process), 📂 (Role)
 ```
 :smile: :rocket: :+1:  
 The above might not wotk in all markdown editors.  
-You may use UTF8 characters.
+You may use UTF8 characters.  
+📘 (Guideline), 📋 (Log), 📄 (Template), 📜 (Policy), 🗂️ (Record), 📝 (Procedure), 📁 (Process), 📂 (Role)
 
 ## Escaping Characters
 
