@@ -77,15 +77,14 @@ Note: to indent the list use two spaces in front of the items.
 ## Links
 
 ```
-<https://example.com>  
-[Preffered example](https://example.com)  
-[Relative link to a heading inside this BookStack document -> Headings](#bkmrk-headings)  
-[Relative link to a heading inside this document -> Headings](#headings)
+[External Website Example](https://github.com/negulescus/misc/blob/main/Markdown%20Feature%20Showcase.md)[Relative link to a heading inside this BookStack document -> Headings](#bkmrk-headings)  
+[Relative link to a heading inside this document -> Headings](#headings)  
+Less preffered mode: <https://example.com>
 ```
-<https://example.com>  
-[Preffered example](https://example.com)  
+[External Website Example](https://github.com/negulescus/misc/blob/main/Markdown%20Feature%20Showcase.md)  
 [Relative link to a heading inside this BookStack document -> Headings](#bkmrk-headings)  
-[Relative link to a heading inside this document -> Headings](#headings)
+[Relative link to a heading inside this document -> Headings](#headings)  
+Less preffered mode: <https://example.com>
 
 ## Images
 
