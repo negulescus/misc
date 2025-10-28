@@ -1,5 +1,3 @@
-# Markdown Feature Showcase
-
 ## Headings
 
 ```
@@ -185,6 +183,43 @@ Here is a sentence with a footnote.[^1]
 Here is a sentence with a footnote.[^1]
 
 [^1]: This is the footnote.
+
+## Subscript and Superscript
+### Using Markdown
+Note: not all editors support these.
+```
+Superscript: E = mc^2^  
+Subscript: H~2~O
+```
+Superscript: E = mc^2^  
+Subscript: H~2~O
+
+### Using HTML Tags
+Note: please avoid unless there aren't other options.
+```
+E = mc<sup>2</sup>  
+H<sub>2</sub>O
+```
+E = mc<sup>2</sup>  
+H<sub>2</sub>O
+
+### Using UTF-8 Characters
+
+| Type | Characters | Code Points | Notes |
+|------|-------------|--------------|--------|
+| **Subscripts** |  |  |  |
+| Digits | ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ | U+2080–U+2089 | full 0–9 range |
+| Signs | ₊ ₋ ₌ ₍ ₎ | U+208A–U+208E | plus, minus, equals, parentheses |
+| Latin lowercase | ₐ ₑ ₒ ₓ ₕ ₖ ₗ ₘ ₙ ₚ ₛ ₜ | U+2090–U+209C | limited subset of Latin letters |
+| Greek | ᵦ ᵧ ᵨ ᵩ ᵪ | U+1D66–U+1D6A | beta, gamma, rho, phi, chi |
+| **Superscripts** |  |  |  |
+| Digits | ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ | U+2070, U+00B9–U+00B3, U+2074–U+2079 | full 0–9 range available |
+| Signs | ⁺ ⁻ ⁼ ⁽ ⁾ | U+207A–U+207E | plus, minus, equals, parentheses |
+| Latin lowercase (basic) | ⁱ ⁿ | U+2071, U+207F | only *i* and *n* exist |
+| Latin lowercase (extended) | ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ᶦ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ | U+1D43–U+1DBF | phonetic extension letters that look like superscripts |
+
+E = mc²  
+H₂O
 
 ## Emoji (GitHub-flavored)
 
