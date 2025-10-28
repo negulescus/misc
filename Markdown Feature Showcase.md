@@ -1,6 +1,6 @@
 # Markdown Feature Showcase
 
-## Headings:
+## Headings
 
 ```
 # Heading 1
@@ -78,10 +78,14 @@ Note: to indent the list use two spaces in front of the items.
 
 ```
 <https://example.com>  
-[Preffered example](https://example.com)
+[Preffered example](https://example.com)  
+[Relative link to a heading inside this BookStack document -> Headings](#bkmrk-headings)  
+[Relative link to a heading inside this document -> Headings](#headings)
 ```
 <https://example.com>  
-[Preffered example](https://example.com)
+[Preffered example](https://example.com)  
+[Relative link to a heading inside this BookStack document -> Headings](#bkmrk-headings)  
+[Relative link to a heading inside this document -> Headings](#headings)
 
 ## Images
 
